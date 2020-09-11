@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleA'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of ModuleA.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/kcjm1019/ModuleA'
+  s.homepage         = 'https://github.com/kcjm1019/ModuleTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '孙梦青' => 'sunmengqing@wshifu.com' }
-  s.source           = { :git => 'https://github.com/kcjm1019/ModuleA.git', :tag => s.version.to_s }
+  s.author           = { 'kcjm1019' => '1600499129@qq.com' }
+  s.source           = { :git => 'https://github.com/kcjm1019/ModuleTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ModuleA/Classes/**/*'
+  s.source_files = 'ModuleA/Classes/*'
   
   # s.resource_bundles = {
   #   'ModuleA' => ['ModuleA/Assets/*.png']
